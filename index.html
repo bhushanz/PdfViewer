@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Viewer with Toggle</title>
+  <link rel="icon" type="image/png" href="pdf-icon.png">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <main>
+
+    <div class="heading">
+        <h1>PDF Viewer Example</h1>
+    </div>
+    <div class="data">
+
+  <button id="toggle-pdf-btn">Open PDF</button>
+
+  <div id="pdf-container">
+    <iframe id="pdf-iframe" width="100%" height="100%" frameborder="0"></iframe>
+  </div>
+
+</div>
+
+</main>
+  <!-- <script>
+
+    // Toggle button click event
+    document.getElementById("toggle-pdf-btn").addEventListener("click", function () {
+      // PDF file URL
+     
+
+      // Check current display state and toggle
+      if (pdfContainer.style.display === "none") {
+        // Open the PDF
+        pdfIframe.src = `${pdfUrl}#toolbar=0&navpanes=0&scrollbar=0`; // Disable toolbar and navpane
+        pdfContainer.style.display = "block";
+        toggleButton.textContent = "Close PDF"; // Change button text
+      } else {
+
+        // Close the PDF
+        pdfIframe.src = ""; // Clear the iframe source
+        pdfContainer.style.display = "none";
+        toggleButton.textContent = "Open PDF"; // Reset button text
+      }
+    });
+  </script> -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
