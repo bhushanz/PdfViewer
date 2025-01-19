@@ -27,7 +27,7 @@ body{
 }
 .data{
     position: relative;
-    height: 80vh;
+    height: 85vh;
     width: 80%;
     margin: 10px auto;
     display: flex;
@@ -50,7 +50,7 @@ button{
 #pdf-container{
  display: none;
  width: 55%;
- height: 440px;
+ height: 90%;
  border: 2px solid black;
  border-radius:10px ;
  overflow: hidden;
